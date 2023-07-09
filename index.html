@@ -8,31 +8,67 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-  </head>
+ 
+  <style>
+    #summary{
+        background-color: grey;
 
+
+    }
+
+    #resume{
+          color: blueviolet;
+
+    }
+    .summary1{
+       background-color: grey ;
+        margin-right: 20px;
+    }
+    #frame{
+         padding-top: 30px;
+
+    }
+
+
+    .tech{
+      margin-right: 50px;
+    
+  
+
+
+    }
+  
+
+
+</style>
+</head>
   <body>
    <header>
-    <i class="fa fa-user-circle-o" aria-hidden="true"> </i> &nbsp;
-    <span> Rohini Kokane </span>&nbsp;&nbsp;
-    <i class="fa fa-phone-square" aria-hidden="true"> </i> &nbsp;<span
-      >1234 5678 90 </span
-    >&nbsp;&nbsp; <i class="fa fa-envelope-o" aria-hidden="true"> </i> &nbsp;
-    <span> abcd@gmail.com</span>
-    <br />
-    <br />
-    <nav>
-    <a href="home.html" target="myFrame"> HOME</a> &nbsp;&nbsp;
-    <a href="techStack.html" target="myFrame"> TECHNOLOGY STOCK </a>
-    &nbsp;&nbsp;
-    <a href="project.html" target="myFrame"> PROJECT </a> &nbsp;&nbsp;
-    <a href="academicDetails.html" target="myFrame"> EDUCATION </a> &nbsp;&nbsp;
-    <a href="aboutMe.html" target="myFrame"> ABOUT ME </a>
-  </header> 
+    <span id="summary">
+    <i class="fa fa-user-circle-o" aria-hidden="true"> </i>
+    <span class="summary1"> Rohini Kokane </span>
+    <i class="fa fa-phone-square" aria-hidden="true"> </i> &nbsp;<span class="summary1"
+      >1234 5678 90 </span>
+    <i class="fa fa-envelope-o" aria-hidden="true"> </i> 
+    <span class="summary1"> abcd@gmail.com</span>  
+    <button class="btn"><i class="fa fa-download"></i> <span id="resume">Download  Resume </span></button>
+  
+  </header>
+    
+    
+    <nav id="frame"> 
+    <a href="home.html" target="myFrame"> <span class="tech"> HOME </span></a> 
+    <a href="techStack.html" target="myFrame"><span class="tech"> TECHSTACK </span>  </a>
+  
+    <a href="project.html" target="myFrame"> <span class="tech"> PROJECT </span>  </a> 
+    <a href="academicDetails.html" target="myFrame"> <span class="tech"> EDUCATION  </span></a> &nbsp;&nbsp;
+    <a href="aboutMe.html" target="myFrame"> <span class="tech"> ABOUT ME </span> </a>
+  
   </nav>
-    <br />
-    <br />
+    
+    
 
-    <iframe width="800px" height="600px" src="home.html" name="myFrame" frameborder="0"> 
+    <iframe width="800px" height="600px" src="home.html" name="myFrame"> 
 
     </iframe>
  <footer>
