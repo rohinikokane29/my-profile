@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Profile</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
  
   <style>
     #summary{
@@ -26,17 +26,29 @@
     }
     #frame{
          padding-top: 20px;
-
+         font-family: 'Poppins', sans-serif;
     }
+      
+         .link{
+   text-decoration: none;
+         }
 
+    
+    nav ul li{
+      display: inline-block;
+      width: 200px;
+      text-transform: uppercase;
+    }
+    
 
     .tech{
       margin-right: 50px;
-    
-  
-
-
     }
+    nav ul li a:hover{
+      color: rgb(226, 198, 43);
+    }
+    
+
   
 
 
@@ -57,18 +69,18 @@
     
     
     <nav id="frame"> 
-    <a href="home.html" target="myFrame"> <span class="tech"> HOME </span></a> 
-    <a href="techStack.html" target="myFrame"><span class="tech"> TECHSTACK </span>  </a>
+    <a class="link" href="home.html" target="myFrame" > <span class="tech"> HOME </span></a> 
+    <a class="link" href="techStack.html" target="myFrame"><span class="tech"> TECHSTACK </span>  </a>
   
-    <a href="project.html" target="myFrame"> <span class="tech"> PROJECT </span>  </a> 
-    <a href="academicDetails.html" target="myFrame"> <span class="tech"> EDUCATION  </span></a> &nbsp;&nbsp;
-    <a href="aboutMe.html" target="myFrame"> <span class="tech"> ABOUT ME </span> </a>
+    <a class="link" href="project.html" target="myFrame"> <span class="tech"> PROJECT </span>  </a> 
+    <a class="link" href="academicDetails.html" target="myFrame"> <span class="tech"> EDUCATION  </span></a>
+    <a class="link" href="aboutMe.html" target="myFrame"> <span class="tech"> ABOUT ME </span> </a>
   
   </nav>
     
     
 
-    <iframe width="800px" height="600px" src="home.html" name="myFrame"> 
+    <iframe width="800px" height="600px" src="home.html" name="myFrame" > 
 
     </iframe>
  <footer>

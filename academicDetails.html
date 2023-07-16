@@ -4,25 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
-    <style> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
+     <style>
            table,tr,th,td{
             border: 2px solid rgb(10, 118, 121);
             
         }
+    
+        h2 ,.summary{
+            font-family: 'Poppins', sans-serif;       
+         }
+          
+      .summary1{
+        font-family: 'Signika Negative', sans-serif;
+    }
+     tbody tr:hover{
+        color: blue;
+     }
     </style>
 </head>
   <body>
  <h2> Academic Details </h2>
 <table>
     <thead>
-        <tr>
+        <tr class="summary">
             <th>sr.No</th>
             <th>Academic</th>
             <th>College Name</th>
             <th>University/Board</th>
         </tr>
    </thead>
-   <tbody>
+   <tbody class="summary1">
     <tr>
          <td>1</td>
          <td>Graduation</td>
